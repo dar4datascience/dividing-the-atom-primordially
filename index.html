@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Dividing the Atom Primordially</title>
+<title>index</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -44,57 +44,122 @@ ul.task-list li input[type="checkbox"] {
 <body>
 
 
-<header id="title-block-header">
-<h1 class="title">Dividing the Atom Primordially</h1>
-
-</header>
 
 
-<section id="choose-your-path" class="heart-container">
-<h1>Choose Your Path</h1>
-<svg class="heart-svg" viewbox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-  <!-- Heart outline -->
-  <path d="M300 520 C 100 380, 50 250, 120 160 C 170 100, 250 100, 300 180 C 350 100, 430 100, 480 160 C 550 250, 500 380, 300 520 Z" fill="none" stroke="#ff6b9d" stroke-width="3" opacity="0.6"></path>
 
-  <!-- Labyrinth decorative paths -->
-  <path d="M300 480 C 140 360, 100 260, 150 190 C 190 150, 250 160, 300 230" fill="none" stroke="#3a3a5a" stroke-width="1.5" opacity="0.5"></path>
-  <path d="M300 480 C 460 360, 500 260, 450 190 C 410 150, 350 160, 300 230" fill="none" stroke="#3a3a5a" stroke-width="1.5" opacity="0.5"></path>
-  <path d="M300 440 C 180 340, 150 270, 180 220 C 210 190, 260 200, 300 260" fill="none" stroke="#2a2a4a" stroke-width="1" opacity="0.4"></path>
-  <path d="M300 440 C 420 340, 450 270, 420 220 C 390 190, 340 200, 300 260" fill="none" stroke="#2a2a4a" stroke-width="1" opacity="0.4"></path>
-  <path d="M300 400 C 220 330, 200 290, 210 260 C 230 240, 270 250, 300 290" fill="none" stroke="#1a1a3a" stroke-width="1" opacity="0.3"></path>
-  <path d="M300 400 C 380 330, 400 290, 390 260 C 370 240, 330 250, 300 290" fill="none" stroke="#1a1a3a" stroke-width="1" opacity="0.3"></path>
+<div class="heart-scene">
+<div class="scene-bg"></div>
 
-  <!-- Clue 1 - Top left zone -->
-  <a href="./clue-1/">
-    <circle class="clue-zone" cx="200" cy="200" r="45"></circle>
-    <text class="clue-label" x="200" y="205">Clue 1</text>
-  </a>
+<div class="particles">
+  <span class="particle"></span><span class="particle"></span><span class="particle"></span>
+  <span class="particle"></span><span class="particle"></span><span class="particle"></span>
+  <span class="particle"></span><span class="particle"></span><span class="particle"></span>
+  <span class="particle"></span><span class="particle"></span><span class="particle"></span>
+</div>
 
-  <!-- Clue 2 - Top right zone -->
-  <a href="./clue-2/">
-    <circle class="clue-zone" cx="400" cy="200" r="45"></circle>
-    <text class="clue-label" x="400" y="205">Clue 2</text>
-  </a>
+<div class="lantern-wrapper">
+  <svg class="lantern-svg" viewbox="0 0 80 200" xmlns="http://www.w3.org/2000/svg">
+    <line x1="40" y1="0" x2="40" y2="30" stroke="#c9a84c" stroke-width="2"></line>
+    <path d="M20 30 L60 30 L55 45 L25 45 Z" fill="#c9a84c" stroke="#a8842c" stroke-width="1"></path>
+    <rect x="22" y="45" width="36" height="55" rx="4" fill="url(#lanternGlow)" stroke="#c9a84c" stroke-width="2"></rect>
+    <rect x="26" y="50" width="28" height="45" rx="2" fill="rgba(255,200,80,0.3)"></rect>
+    <path d="M20 100 L60 100 L55 115 L25 115 Z" fill="#c9a84c" stroke="#a8842c" stroke-width="1"></path>
+    <line x1="40" y1="115" x2="40" y2="135" stroke="#c9a84c" stroke-width="1.5"></line>
+    <circle cx="40" cy="140" r="3" fill="#c9a84c"></circle>
+    <defs>
+      <radialgradient id="lanternGlow">
+        <stop offset="0%" stop-color="rgba(255,220,120,0.5)"></stop>
+        <stop offset="100%" stop-color="rgba(200,150,50,0.2)"></stop>
+      </radialgradient>
+    </defs>
+  </svg>
+</div>
 
-  <!-- Clue 3 - Bottom left zone -->
-  <a href="./clue-3/">
-    <circle class="clue-zone" cx="180" cy="340" r="45"></circle>
-    <text class="clue-label" x="180" y="345">Clue 3</text>
-  </a>
+<div class="wings">
+  <svg class="wing wing-1" viewbox="0 0 100 60" xmlns="http://www.w3.org/2000/svg">
+    <path d="M50 30 Q20 5 5 20 Q0 35 15 45 Q30 50 50 30" fill="rgba(255,240,230,0.15)" stroke="rgba(255,240,230,0.3)" stroke-width="1"></path>
+    <path d="M50 30 Q80 5 95 20 Q100 35 85 45 Q70 50 50 30" fill="rgba(255,240,230,0.15)" stroke="rgba(255,240,230,0.3)" stroke-width="1"></path>
+  </svg>
+  <svg class="wing wing-2" viewbox="0 0 100 60" xmlns="http://www.w3.org/2000/svg">
+    <path d="M50 30 Q20 5 5 20 Q0 35 15 45 Q30 50 50 30" fill="rgba(255,240,230,0.1)" stroke="rgba(255,240,230,0.2)" stroke-width="1"></path>
+    <path d="M50 30 Q80 5 95 20 Q100 35 85 45 Q70 50 50 30" fill="rgba(255,240,230,0.1)" stroke="rgba(255,240,230,0.2)" stroke-width="1"></path>
+  </svg>
+  <svg class="wing wing-3" viewbox="0 0 100 60" xmlns="http://www.w3.org/2000/svg">
+    <path d="M50 30 Q20 5 5 20 Q0 35 15 45 Q30 50 50 30" fill="rgba(255,240,230,0.12)" stroke="rgba(255,240,230,0.25)" stroke-width="1"></path>
+    <path d="M50 30 Q80 5 95 20 Q100 35 85 45 Q70 50 50 30" fill="rgba(255,240,230,0.12)" stroke="rgba(255,240,230,0.25)" stroke-width="1"></path>
+  </svg>
+</div>
 
-  <!-- Clue 4 - Bottom right zone -->
-  <a href="./clue-4/">
-    <circle class="clue-zone" cx="420" cy="340" r="45"></circle>
-    <text class="clue-label" x="420" y="345">Clue 4</text>
-  </a>
+<div class="butterflies">
+  <svg class="butterfly butterfly-1" viewbox="0 0 60 50" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="20" cy="20" rx="15" ry="12" fill="rgba(255,180,200,0.4)" stroke="rgba(255,180,200,0.6)" stroke-width="1"></ellipse>
+    <ellipse cx="40" cy="20" rx="15" ry="12" fill="rgba(255,180,200,0.4)" stroke="rgba(255,180,200,0.6)" stroke-width="1"></ellipse>
+    <ellipse cx="22" cy="35" rx="10" ry="8" fill="rgba(255,150,180,0.3)" stroke="rgba(255,150,180,0.5)" stroke-width="1"></ellipse>
+    <ellipse cx="38" cy="35" rx="10" ry="8" fill="rgba(255,150,180,0.3)" stroke="rgba(255,150,180,0.5)" stroke-width="1"></ellipse>
+    <line x1="30" y1="10" x2="30" y2="40" stroke="rgba(200,150,160,0.5)" stroke-width="1.5"></line>
+  </svg>
+  <svg class="butterfly butterfly-2" viewbox="0 0 60 50" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="20" cy="20" rx="15" ry="12" fill="rgba(200,220,255,0.35)" stroke="rgba(200,220,255,0.5)" stroke-width="1"></ellipse>
+    <ellipse cx="40" cy="20" rx="15" ry="12" fill="rgba(200,220,255,0.35)" stroke="rgba(200,220,255,0.5)" stroke-width="1"></ellipse>
+    <ellipse cx="22" cy="35" rx="10" ry="8" fill="rgba(180,200,240,0.25)" stroke="rgba(180,200,240,0.4)" stroke-width="1"></ellipse>
+    <ellipse cx="38" cy="35" rx="10" ry="8" fill="rgba(180,200,240,0.25)" stroke="rgba(180,200,240,0.4)" stroke-width="1"></ellipse>
+    <line x1="30" y1="10" x2="30" y2="40" stroke="rgba(160,180,210,0.5)" stroke-width="1.5"></line>
+  </svg>
+  <svg class="butterfly butterfly-3" viewbox="0 0 60 50" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="20" cy="20" rx="12" ry="10" fill="rgba(255,200,220,0.3)" stroke="rgba(255,200,220,0.5)" stroke-width="1"></ellipse>
+    <ellipse cx="40" cy="20" rx="12" ry="10" fill="rgba(255,200,220,0.3)" stroke="rgba(255,200,220,0.5)" stroke-width="1"></ellipse>
+    <ellipse cx="22" cy="33" rx="8" ry="6" fill="rgba(255,170,200,0.2)" stroke="rgba(255,170,200,0.4)" stroke-width="1"></ellipse>
+    <ellipse cx="38" cy="33" rx="8" ry="6" fill="rgba(255,170,200,0.2)" stroke="rgba(255,170,200,0.4)" stroke-width="1"></ellipse>
+    <line x1="30" y1="12" x2="30" y2="38" stroke="rgba(200,160,170,0.4)" stroke-width="1.5"></line>
+  </svg>
+</div>
 
-  <!-- Center start link -->
-  <a href="./inicio/">
-    <circle class="clue-zone" cx="300" cy="290" r="35" style="fill: rgba(126,200,227,0.15); stroke: rgba(126,200,227,0.3);"></circle>
-    <text class="clue-label" x="300" y="295" style="fill: #7ec8e3;">Start</text>
-  </a>
-</svg>
-</section>
+<div class="heart-interactive">
+  <svg class="heart-svg" viewbox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialgradient id="heartGlow">
+        <stop offset="0%" stop-color="rgba(255,100,140,0.15)"></stop>
+        <stop offset="100%" stop-color="rgba(255,100,140,0)"></stop>
+      </radialgradient>
+      <filter id="heartBlur">
+        <fegaussianblur stddeviation="8"></fegaussianblur>
+      </filter>
+    </defs>
+
+    <circle cx="300" cy="300" r="250" fill="url(#heartGlow)"></circle>
+
+    <path d="M300 520 C 100 380, 50 250, 120 160 C 170 100, 250 100, 300 180 C 350 100, 430 100, 480 160 C 550 250, 500 380, 300 520 Z" fill="none" stroke="#ff6b9d" stroke-width="3" opacity="0.7" class="heart-outline"></path>
+
+    <path d="M300 480 C 140 360, 100 260, 150 190 C 190 150, 250 160, 300 230" fill="none" stroke="#c44a6a" stroke-width="1.5" opacity="0.5"></path>
+    <path d="M300 480 C 460 360, 500 260, 450 190 C 410 150, 350 160, 300 230" fill="none" stroke="#c44a6a" stroke-width="1.5" opacity="0.5"></path>
+    <path d="M300 440 C 180 340, 150 270, 180 220 C 210 190, 260 200, 300 260" fill="none" stroke="#a83a5a" stroke-width="1" opacity="0.4"></path>
+    <path d="M300 440 C 420 340, 450 270, 420 220 C 390 190, 340 200, 300 260" fill="none" stroke="#a83a5a" stroke-width="1" opacity="0.4"></path>
+    <path d="M300 400 C 220 330, 200 290, 210 260 C 230 240, 270 250, 300 290" fill="none" stroke="#8a2a4a" stroke-width="1" opacity="0.3"></path>
+    <path d="M300 400 C 380 330, 400 290, 390 260 C 370 240, 330 250, 300 290" fill="none" stroke="#8a2a4a" stroke-width="1" opacity="0.3"></path>
+
+    <a href="./clue-1/">
+      <circle class="clue-zone" cx="200" cy="200" r="45"></circle>
+      <text class="clue-label" x="200" y="205">Clue 1</text>
+    </a>
+    <a href="./clue-2/">
+      <circle class="clue-zone" cx="400" cy="200" r="45"></circle>
+      <text class="clue-label" x="400" y="205">Clue 2</text>
+    </a>
+    <a href="./clue-3/">
+      <circle class="clue-zone" cx="180" cy="340" r="45"></circle>
+      <text class="clue-label" x="180" y="345">Clue 3</text>
+    </a>
+    <a href="./clue-4/">
+      <circle class="clue-zone" cx="420" cy="340" r="45"></circle>
+      <text class="clue-label" x="420" y="345">Clue 4</text>
+    </a>
+    <a href="./inicio/">
+      <circle class="clue-zone clue-start" cx="300" cy="290" r="35"></circle>
+      <text class="clue-label clue-start-label" x="300" y="295">Start</text>
+    </a>
+  </svg>
+</div>
+</div>
 
 
 <script id="quarto-html-after-body" type="application/javascript">
