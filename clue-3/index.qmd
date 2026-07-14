@@ -1,0 +1,13 @@
+---
+title: "Clue 3"
+---
+
+::: clue-page
+
+# Clue 3
+
+The third seal holds a fragment of the primordial code. Placeholder content — replace with your actual clue.
+
+[Back to the Heart](../)
+
+:::

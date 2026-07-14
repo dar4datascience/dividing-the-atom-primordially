@@ -1,0 +1,13 @@
+---
+title: "Clue 2"
+---
+
+::: clue-page
+
+# Clue 2
+
+Stars align in patterns only the patient can read. Placeholder content — replace with your actual clue.
+
+[Back to the Heart](../)
+
+:::

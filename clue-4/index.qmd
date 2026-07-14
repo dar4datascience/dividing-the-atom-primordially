@@ -1,0 +1,13 @@
+---
+title: "Clue 4"
+---
+
+::: clue-page
+
+# Clue 4
+
+The final piece of the puzzle before the atom divides. Placeholder content — replace with your actual clue.
+
+[Back to the Heart](../)
+
+:::

@@ -1,0 +1,13 @@
+---
+title: "Inicio"
+---
+
+::: inicio-page
+
+# The Journey Begins
+
+You stand at the threshold of the unknown. Four clues await you in the heart of the labyrinth.
+
+[Return to the Heart](../)
+
+:::

@@ -1,0 +1,13 @@
+---
+title: "Clue 1"
+---
+
+::: clue-page
+
+# Clue 1
+
+The first whisper of the cosmos reveals itself here. Placeholder content — replace with your actual clue.
+
+[Back to the Heart](../)
+
+:::
