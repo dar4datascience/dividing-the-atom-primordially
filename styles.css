@@ -1,0 +1,126 @@
+body {
+  background-color: #0a0a1a;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.heart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.heart-container h1 {
+  color: #ff6b9d;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.heart-svg {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.heart-svg a {
+  cursor: pointer;
+}
+
+.heart-svg a:hover .clue-zone {
+  fill: rgba(255, 107, 157, 0.4);
+  stroke: #ff6b9d;
+  stroke-width: 2;
+}
+
+.clue-zone {
+  fill: rgba(255, 255, 255, 0.08);
+  stroke: rgba(255, 255, 255, 0.2);
+  stroke-width: 1;
+  transition: all 0.3s ease;
+}
+
+.clue-label {
+  fill: #e0e0e0;
+  font-size: 14px;
+  font-family: 'Segoe UI', sans-serif;
+  text-anchor: middle;
+  pointer-events: none;
+}
+
+.inicio-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+}
+
+.inicio-page h1 {
+  color: #ff6b9d;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.inicio-page p {
+  color: #b0b0c0;
+  font-size: 1.2rem;
+  max-width: 500px;
+  margin-bottom: 2rem;
+}
+
+.inicio-page a {
+  color: #ff6b9d;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border: 1px solid #ff6b9d;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.inicio-page a:hover {
+  background-color: #ff6b9d;
+  color: #0a0a1a;
+}
+
+.clue-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+}
+
+.clue-page h1 {
+  color: #ff6b9d;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.clue-page p {
+  color: #b0b0c0;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+.clue-page a {
+  color: #7ec8e3;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.clue-page a:hover {
+  color: #ff6b9d;
+}
