@@ -2,12 +2,13 @@
 title: "Clue 3"
 ---
 
-::: clue-page
-
-# Clue 3
-
-The third seal holds a fragment of the primordial code. Placeholder content — replace with your actual clue.
-
-[Back to the Heart](../)
-
-:::
+```{=html}
+<div class="clue-page clue-video">
+<div class="video-bg"></div>
+<div class="clue-box">
+  <h1>Clue 3</h1>
+  <p>The third seal holds a fragment of the primordial code. Placeholder content — replace with your actual clue.</p>
+  <p><a href="../">Back to the Heart</a></p>
+</div>
+</div>
+```

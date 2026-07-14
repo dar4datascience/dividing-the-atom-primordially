@@ -3,7 +3,6 @@ project:
   output-dir: _site
 
 website:
-  title: "Dividing the Atom Primordially"
   navbar: false
   sidebar: false
 

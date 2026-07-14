@@ -2,12 +2,17 @@
 title: "Clue 2"
 ---
 
-::: clue-page
-
-# Clue 2
-
-Stars align in patterns only the patient can read. Placeholder content — replace with your actual clue.
-
-[Back to the Heart](../)
-
-:::
+```{=html}
+<div class="clue-page clue-liquid">
+<div class="liquid-bg">
+  <div class="liquid-blob liquid-blob-1"></div>
+  <div class="liquid-blob liquid-blob-2"></div>
+  <div class="liquid-blob liquid-blob-3"></div>
+</div>
+<div class="clue-box">
+  <h1>Clue 2</h1>
+  <p>Stars align in patterns only the patient can read. Placeholder content — replace with your actual clue.</p>
+  <p><a href="../">Back to the Heart</a></p>
+</div>
+</div>
+```

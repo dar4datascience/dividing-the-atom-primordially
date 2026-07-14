@@ -2,12 +2,17 @@
 title: "Clue 1"
 ---
 
-::: clue-page
-
-# Clue 1
-
-The first whisper of the cosmos reveals itself here. Placeholder content — replace with your actual clue.
-
-[Back to the Heart](../)
-
-:::
+```{=html}
+<div class="clue-page clue-morph">
+<div class="morph-bg">
+  <div class="morph-blob morph-blob-1"></div>
+  <div class="morph-blob morph-blob-2"></div>
+  <div class="morph-blob morph-blob-3"></div>
+</div>
+<div class="clue-box">
+  <h1>Clue 1</h1>
+  <p>The first whisper of the cosmos reveals itself here. Placeholder content — replace with your actual clue.</p>
+  <p><a href="../">Back to the Heart</a></p>
+</div>
+</div>
+```

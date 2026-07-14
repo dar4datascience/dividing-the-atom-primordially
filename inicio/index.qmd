@@ -2,12 +2,10 @@
 title: "Inicio"
 ---
 
-::: inicio-page
-
-# The Journey Begins
-
-You stand at the threshold of the unknown. Four clues await you in the heart of the labyrinth.
-
-[Return to the Heart](../)
-
-:::
+```{=html}
+<div class="inicio-page">
+  <h1>The Journey Begins</h1>
+  <p>You stand at the threshold of the unknown. Four clues await you in the heart of the labyrinth.</p>
+  <p><a href="../">Return to the Heart</a></p>
+</div>
+```
